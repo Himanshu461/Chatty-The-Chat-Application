@@ -1,6 +1,6 @@
 import bcrypt from "bcryptjs";
 import cloudinary from "../lib/cloudinary.js";   //profile photo upload
-import { genereateToken } from "../lib/util.js";  //Login/signup ke baad JWT token cookie me set karta hai
+import { generateToken } from "../lib/util.js";  //Login/signup ke baad JWT token cookie me set karta hai
 import User from "../models/user.model.js"; //MongoDB user schema
 
 // --------------------- SIGNUP ---------------------
