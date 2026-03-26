@@ -23,7 +23,7 @@ app.use(express.json({ limit: "30mb" }));
 app.use(express.urlencoded({ extended: true, limit: "30mb" }));
 app.use(cookieParser());
 app.use(cors({
-  origin: true,
+  origin: "https://chatty-the-chat-application.vercel.app",
   credentials: true,
 }));
 
